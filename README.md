@@ -22,3 +22,4 @@ This build uses the following patches:
 
   * [alpha](https://tools.suckless.org/tabbed/patches/alpha/) - This patch create 32bit window in tabbed. This allows to handle windows with transparency.
   * [autohide](https://tools.suckless.org/tabbed/patches/autohide/) - This patch hides the tab bar if only one tab is open.
+  * [client number](https://tools.suckless.org/tabbed/patches/clientnumber/) - With this patch, tabbed prints the position number of the client before the window title.
