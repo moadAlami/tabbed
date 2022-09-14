@@ -20,4 +20,4 @@ See the man page for details.
 ## Patches
 This build uses the following patches:
 
-	* [alpha](https://tools.suckless.org/tabbed/patches/alpha/) This patch create 32bit window in tabbed. This allows to handle windows with transparency.
+  * [alpha](https://tools.suckless.org/tabbed/patches/alpha/) - This patch create 32bit window in tabbed. This allows to handle windows with transparency.
