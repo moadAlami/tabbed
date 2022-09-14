@@ -46,16 +46,17 @@ static Key keys[] = {
 	{ MODKEY,               XK_Tab,    rotate,      { .i = 0 } },
 
 	{ MODKEY,               XK_grave,  spawn,       SETPROP("_TABBED_SELECT_TAB") },
-	{ MODKEY,               XK_1,      move,        { .i = 0 } },
-	{ MODKEY,               XK_2,      move,        { .i = 1 } },
-	{ MODKEY,               XK_3,      move,        { .i = 2 } },
-	{ MODKEY,               XK_4,      move,        { .i = 3 } },
-	{ MODKEY,               XK_5,      move,        { .i = 4 } },
-	{ MODKEY,               XK_6,      move,        { .i = 5 } },
-	{ MODKEY,               XK_7,      move,        { .i = 6 } },
-	{ MODKEY,               XK_8,      move,        { .i = 7 } },
-	{ MODKEY,               XK_9,      move,        { .i = 8 } },
-	{ MODKEY,               XK_0,      move,        { .i = 9 } },
+
+	{ Mod1Mask,               XK_ampersand,      move,        { .i = 0 } },
+	{ Mod1Mask,               XK_eacute,      move,        { .i = 1 } },
+	{ Mod1Mask,               XK_quotedbl,      move,        { .i = 2 } },
+	{ Mod1Mask,               XK_apostrophe,      move,        { .i = 3 } },
+	{ Mod1Mask,               XK_parenleft,      move,        { .i = 4 } },
+	{ Mod1Mask,               XK_minus,      move,        { .i = 5 } },
+	{ Mod1Mask,               XK_egrave,      move,        { .i = 6 } },
+	{ Mod1Mask,               XK_underscore,      move,        { .i = 7 } },
+	{ Mod1Mask,               XK_ccedilla,      move,        { .i = 8 } },
+	{ Mod1Mask,               XK_agrave,      move,        { .i = 9 } },
 
 	{ MODKEY,               XK_q,      killclient,  { 0 } },
 
